@@ -38,7 +38,7 @@ class Arraysort2
 
     public static void main(String[] str)
     {
-        // This is a leetcode proble which i am not able to solbe but i will try again.
+        // This is a leetcode proble which i am not able to solve but i will try again.
        int nums[] = {3,4,5,1,2};
 
        boolean ans=check(nums);

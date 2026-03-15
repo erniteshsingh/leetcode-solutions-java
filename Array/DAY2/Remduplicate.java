@@ -3,7 +3,7 @@ import java.util.*;
 class Remduplicate{
 
     // This is a leetcode problem
-    // This  is the Brute force solution
+    // This  is a Brute force solution
     public static int removeDuplicates2(int[] nums)
     {
         int newarray[]=new int[nums.length];
@@ -27,7 +27,7 @@ class Remduplicate{
     }
 
     // Optimal Solution
-     public static int removeDuplicates2(int[] nums)
+     public static int removeDuplicates3(int[] nums)
      {
         int index=0;
         for(int i=1;  i<nums.length; i++)
